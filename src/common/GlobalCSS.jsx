@@ -5,6 +5,11 @@ export const GlobalCSS = createGlobalStyle`
         font-family: 'Poppins', sans-serif;
     }
 
+    body {
+        background-color: ${({ theme }) => theme.body};
+        color: ${({ theme }) => theme.dark};
+    }
+
     html {
         font-size: 87.5%;
 
