@@ -12,8 +12,9 @@ ReactDOM.render(
         <ThemeProvider theme={theme}>
             <ResetCSS />
             <GlobalCSS />
+
+            <App />
         </ThemeProvider>
-        <App />
     </React.StrictMode>,
     document.getElementById("root")
 );
